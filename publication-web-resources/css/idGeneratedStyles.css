@@ -1,0 +1,394 @@
+@font-face {
+	font-family:Gilroy;
+	font-style:normal;
+	font-weight:500;
+	src : url("../../font/Gilroy-Medium.ttf");
+}
+@font-face {
+	font-family:"IBM Plex Serif";
+	font-style:italic;
+	font-weight:bold;
+	src : url("../../font/IBMPlexSerif-BoldItalic.otf");
+}
+@font-face {
+	font-family:"IBM Plex Serif";
+	font-style:oblique;
+	font-weight:bold;
+	src : url("../../font/IBMPlexSerif-BoldItalic.otf");
+}
+@font-face {
+	font-family:"IBM Plex Serif Light";
+	font-style:italic;
+	font-weight:300;
+	src : url("../../font/IBMPlexSerif-LightItalic.otf");
+}
+@font-face {
+	font-family:"IBM Plex Serif Light";
+	font-style:oblique;
+	font-weight:300;
+	src : url("../../font/IBMPlexSerif-LightItalic.otf");
+}
+@font-face {
+	font-family:"IBM Plex Serif SmBld";
+	font-style:italic;
+	font-weight:600;
+	src : url("../../font/IBMPlexSerif-SemiBoldItalic.otf");
+}
+@font-face {
+	font-family:"IBM Plex Serif SmBld";
+	font-style:oblique;
+	font-weight:600;
+	src : url("../../font/IBMPlexSerif-SemiBoldItalic.otf");
+}
+@font-face {
+	font-family:"Libre Franklin Thin";
+	font-style:normal;
+	font-weight:100;
+	src : url("../../font/LibreFranklin-Light.ttf");
+}
+@font-face {
+	font-family:"Libre Franklin Thin";
+	font-style:normal;
+	font-weight:100;
+	src : url("../../font/LibreFranklin-Thin.ttf");
+}
+@font-face {
+	font-family:"Libre Franklin Thin";
+	font-style:normal;
+	font-weight:100;
+	src : url("../../font/LibreFranklin_572.000wght_0ital.ttf");
+}
+@font-face {
+	font-family:"Libre Franklin Thin";
+	font-style:normal;
+	font-weight:100;
+	src : url("../../font/LibreFranklin_652.000wght_0ital.ttf");
+}
+@font-face {
+	font-family:"Minion Pro";
+	font-style:normal;
+	font-weight:normal;
+	src : url("../../font/MinionPro-Regular.otf");
+}
+body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote, figure {
+	margin:0;
+	padding:0;
+	border-width:0;
+	text-rendering:optimizeSpeed;
+}
+div > svg {
+	position:absolute;
+}
+div.Графический-фрейм {
+	border-color:#000000;
+	border-width:1px;
+	border-style:solid;
+}
+div.Текстовый-фрейм {
+	border-style:solid;
+}
+p.ParaOverride-1 {
+	line-height:1;
+	white-space:nowrap;
+}
+span.CharOverride-1 {
+	color:#000000;
+	font-family:"Minion Pro", serif;
+	font-size:440px;
+	font-style:normal;
+	font-weight:normal;
+}
+span.CharOverride-2 {
+	color:#000000;
+	font-family:"IBM Plex Serif Light", serif;
+	font-size:400px;
+	font-style:italic;
+	font-weight:300;
+}
+span.CharOverride-3 {
+	color:#000000;
+	font-family:"IBM Plex Serif SmBld", serif;
+	font-size:400px;
+	font-style:italic;
+	font-weight:600;
+}
+span.CharOverride-4 {
+	color:#000000;
+	font-family:Gilroy, sans-serif;
+	font-size:460px;
+	font-style:normal;
+	font-weight:500;
+}
+span.CharOverride-5 {
+	color:#000000;
+	font-family:"IBM Plex Serif", serif;
+	font-size:640px;
+	font-style:italic;
+	font-weight:bold;
+}
+span.CharOverride-6 {
+	color:#000000;
+	font-family:"Libre Franklin Thin", sans-serif;
+	font-size:1160px;
+	font-variation-settings:"wght" 100;
+}
+span.CharOverride-7 {
+	color:#000000;
+	font-family:"Libre Franklin Thin", sans-serif;
+	font-size:1200px;
+	font-variation-settings:"wght" 100;
+}
+span.CharOverride-8 {
+	color:#000000;
+	font-family:"Libre Franklin Thin", sans-serif;
+	font-size:1160px;
+	font-variation-settings:"wght" 300;
+}
+span.CharOverride-9 {
+	color:#000000;
+	font-family:"Libre Franklin Thin", sans-serif;
+	font-size:1160px;
+	font-variation-settings:"wght" 652;
+}
+span.CharOverride-10 {
+	color:#000000;
+	font-family:"Libre Franklin Thin", sans-serif;
+	font-size:1160px;
+	font-variation-settings:"wght" 572;
+}
+#_idContainer000 {
+	-ms-transform:translate(0.000px,-5.765px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-ms-transform-origin:0% 0%;
+	-webkit-transform:translate(0.000px,-5.765px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin:0% 0%;
+	background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABPsAAAKgCAYAAADtfXg5AAAACXBIWXMAABcRAAAXEQHKJvM/AAATPElEQVR4Xu3asQ2EMBQFQRvR9tVugpMIITWrmcQOXgWrP9daAwAAAAD4vuNtAAAAAAB8g9gHAAAAABFiHwAAAABEiH0AAAAAECH2AQAAAECE2AcAAAAAEWIfAAAAAESIfQAAAAAQIfYBAAAAQITYBwAAAAARYh8AAAAARMwxxu9tBAAAAADsz2UfAAAAAESc9289rAAAAACAfc3/47IPAAAAACLEPgAAAACIEPsAAAAAIELsAwAAAIAIsQ8AAAAAIsQ+AAAAAIgQ+wAAAAAgQuwDAAAAgAixDwAAAAAixD4AAAAAiBD7AAAAACBC7AMAAACACLEPAAAAACLEPgAAAACIEPsAAAAAIELsAwAAAIAIsQ8AAAAAIsQ+AAAAAIgQ+wAAAAAgQuwDAAAAgAixDwAAAAAixD4AAAAAiBD7AAAAACBC7AMAAACACLEPAAAAACLEPgAAAACIEPsAAAAAIELsAwAAAIAIsQ8AAAAAIsQ+AAAAAIgQ+wAAAAAgQuwDAAAAgAixDwAAAAAixD4AAAAAiBD7AAAAACBC7AMAAACACLEPAAAAACLEPgAAAACIEPsAAAAAIELsAwAAAIAIsQ8AAAAAIsQ+AAAAAIgQ+wAAAAAgQuwDAAAAgAixDwAAAAAixD4AAAAAiBD7AAAAACBC7AMAAACACLEPAAAAACLEPgAAAACIEPsAAAAAIELsAwAAAIAIsQ8AAAAAIsQ+AAAAAIgQ+wAAAAAgQuwDAAAAgAixDwAAAAAixD4AAAAAiBD7AAAAACBC7AMAAACACLEPAAAAACLEPgAAAACIEPsAAAAAIELsAwAAAIAIsQ8AAAAAIsQ+AAAAAIgQ+wAAAAAgQuwDAAAAgAixDwAAAAAixD4AAAAAiBD7AAAAACBC7AMAAACACLEPAAAAACLEPgAAAACIEPsAAAAAIELsAwAAAIAIsQ8AAAAAIsQ+AAAAAIgQ+wAAAAAgQuwDAAAAgAixDwAAAAAixD4AAAAAiBD7AAAAACBC7AMAAACACLEPAAAAACLEPgAAAACIEPsAAAAAIELsAwAAAIAIsQ8AAAAAIsQ+AAAAAIgQ+wAAAAAgQuwDAAAAgAixDwAAAAAixD4AAAAAiBD7AAAAACBC7AMAAACACLEPAAAAACLEPgAAAACIEPsAAAAAIELsAwAAAIAIsQ8AAAAAIsQ+AAAAAIgQ+wAAAAAgQuwDAAAAgAixDwAAAAAixD4AAAAAiBD7AAAAACBC7AMAAACACLEPAAAAACLEPgAAAACIEPsAAAAAIELsAwAAAIAIsQ8AAAAAIsQ+AAAAAIgQ+wAAAAAgQuwDAAAAgAixDwAAAAAixD4AAAAAiBD7AAAAACBC7AMAAACACLEPAAAAACLEPgAAAACIEPsAAAAAIELsAwAAAIAIsQ8AAAAAIsQ+AAAAAIgQ+wAAAAAgQuwDAAAAgAixDwAAAAAixD4AAAAAiBD7AAAAACBC7AMAAACACLEPAAAAACLEPgAAAACIEPsAAAAAIELsAwAAAIAIsQ8AAAAAIsQ+AAAAAIgQ+wAAAAAgQuwDAAAAgAixDwAAAAAixD4AAAAAiBD7AAAAACBC7AMAAACACLEPAAAAACLEPgAAAACIEPsAAAAAIELsAwAAAIAIsQ8AAAAAIsQ+AAAAAIgQ+wAAAAAgQuwDAAAAgAixDwAAAAAixD4AAAAAiBD7AAAAACBC7AMAAACACLEPAAAAACLEPgAAAACIEPsAAAAAIELsAwAAAIAIsQ8AAAAAIsQ+AAAAAIgQ+wAAAAAgQuwDAAAAgAixDwAAAAAixD4AAAAAiBD7AAAAACBC7AMAAACACLEPAAAAACLEPgAAAACIEPsAAAAAIELsAwAAAIAIsQ8AAAAAIsQ+AAAAAIgQ+wAAAAAgQuwDAAAAgAixDwAAAAAixD4AAAAAiBD7AAAAACBC7AMAAACACLEPAAAAACLEPgAAAACIEPsAAAAAIELsAwAAAIAIsQ8AAAAAIsQ+AAAAAIgQ+wAAAAAgQuwDAAAAgAixDwAAAAAixD4AAAAAiBD7AAAAACBC7AMAAACACLEPAAAAACLEPgAAAACIEPsAAAAAIELsAwAAAIAIsQ8AAAAAIsQ+AAAAAIgQ+wAAAAAgQuwDAAAAgAixDwAAAAAixD4AAAAAiBD7AAAAACBC7AMAAACACLEPAAAAACLEPgAAAACIEPsAAAAAIELsAwAAAIAIsQ8AAAAAIsQ+AAAAAIgQ+wAAAAAgQuwDAAAAgAixDwAAAAAixD4AAAAAiBD7AAAAACBC7AMAAACACLEPAAAAACLEPgAAAACIEPsAAAAAIELsAwAAAIAIsQ8AAAAAIsQ+AAAAAIgQ+wAAAAAgQuwDAAAAgAixDwAAAAAixD4AAAAAiBD7AAAAACBC7AMAAACACLEPAAAAACLEPgAAAACIEPsAAAAAIELsAwAAAIAIsQ8AAAAAIsQ+AAAAAIgQ+wAAAAAgQuwDAAAAgAixDwAAAAAixD4AAAAAiBD7AAAAACBC7AMAAACACLEPAAAAACLEPgAAAACIEPsAAAAAIELsAwAAAIAIsQ8AAAAAIsQ+AAAAAIgQ+wAAAAAgQuwDAAAAgAixDwAAAAAixD4AAAAAiBD7AAAAACBC7AMAAACACLEPAAAAACLEPgAAAACIEPsAAAAAIELsAwAAAIAIsQ8AAAAAIsQ+AAAAAIgQ+wAAAAAgQuwDAAAAgAixDwAAAAAixD4AAAAAiBD7AAAAACBC7AMAAACACLEPAAAAACLEPgAAAACIEPsAAAAAIELsAwAAAIAIsQ8AAAAAIsQ+AAAAAIgQ+wAAAAAgQuwDAAAAgAixDwAAAAAixD4AAAAAiBD7AAAAACBC7AMAAACACLEPAAAAACLEPgAAAACIEPsAAAAAIELsAwAAAIAIsQ8AAAAAIsQ+AAAAAIgQ+wAAAAAgQuwDAAAAgAixDwAAAAAixD4AAAAAiBD7AAAAACBC7AMAAACACLEPAAAAACLEPgAAAACIEPsAAAAAIELsAwAAAIAIsQ8AAAAAIsQ+AAAAAIgQ+wAAAAAgQuwDAAAAgAixDwAAAAAixD4AAAAAiBD7AAAAACBC7AMAAACACLEPAAAAACLEPgAAAACIEPsAAAAAIELsAwAAAIAIsQ8AAAAAIsQ+AAAAAIgQ+wAAAAAgQuwDAAAAgAixDwAAAAAixD4AAAAAiBD7AAAAACBC7AMAAACACLEPAAAAACLEPgAAAACIEPsAAAAAIELsAwAAAIAIsQ8AAAAAIsQ+AAAAAIgQ+wAAAAAgQuwDAAAAgAixDwAAAAAixD4AAAAAiBD7AAAAACBC7AMAAACACLEPAAAAACLEPgAAAACIEPsAAAAAIELsAwAAAIAIsQ8AAAAAIsQ+AAAAAIgQ+wAAAAAgQuwDAAAAgAixDwAAAAAixD4AAAAAiBD7AAAAACBC7AMAAACACLEPAAAAACLEPgAAAACIEPsAAAAAIELsAwAAAIAIsQ8AAAAAIsQ+AAAAAIgQ+wAAAAAgQuwDAAAAgAixDwAAAAAixD4AAAAAiBD7AAAAACBC7AMAAACACLEPAAAAACLEPgAAAACIEPsAAAAAIELsAwAAAIAIsQ8AAAAAIsQ+AAAAAIgQ+wAAAAAgQuwDAAAAgAixDwAAAAAixD4AAAAAiBD7AAAAACBC7AMAAACACLEPAAAAACLEPgAAAACIEPsAAAAAIELsAwAAAIAIsQ8AAAAAIsQ+AAAAAIgQ+wAAAAAgQuwDAAAAgAixDwAAAAAixD4AAAAAiBD7AAAAACBC7AMAAACACLEPAAAAACLEPgAAAACIEPsAAAAAIELsAwAAAIAIsQ8AAAAAIsQ+AAAAAIgQ+wAAAAAgQuwDAAAAgAixDwAAAAAixD4AAAAAiBD7AAAAACBC7AMAAACACLEPAAAAACLEPgAAAACIEPsAAAAAIELsAwAAAIAIsQ8AAAAAIsQ+AAAAAIgQ+wAAAAAgQuwDAAAAgAixDwAAAAAixD4AAAAAiBD7AAAAACBC7AMAAACACLEPAAAAACLEPgAAAACIEPsAAAAAIELsAwAAAIAIsQ8AAAAAIsQ+AAAAAIgQ+wAAAAAgQuwDAAAAgAixDwAAAAAixD4AAAAAiBD7AAAAACBC7AMAAACACLEPAAAAACLEPgAAAACIEPsAAAAAIELsAwAAAIAIsQ8AAAAAIsQ+AAAAAIgQ+wAAAAAgQuwDAAAAgAixDwAAAAAixD4AAAAAiBD7AAAAACBC7AMAAACACLEPAAAAACLEPgAAAACIEPsAAAAAIELsAwAAAIAIsQ8AAAAAIsQ+AAAAAIgQ+wAAAAAgQuwDAAAAgAixDwAAAAAixD4AAAAAiBD7AAAAACBC7AMAAACACLEPAAAAACLEPgAAAACIEPsAAAAAIELsAwAAAIAIsQ8AAAAAIsQ+AAAAAIgQ+wAAAAAgQuwDAAAAgAixDwAAAAAixD4AAAAAiBD7AAAAACBC7AMAAACACLEPAAAAACLEPgAAAACIEPsAAAAAIELsAwAAAIAIsQ8AAAAAIsQ+AAAAAIgQ+wAAAAAgQuwDAAAAgAixDwAAAAAixD4AAAAAiBD7AAAAACBC7AMAAACACLEPAAAAACLEPgAAAACIEPsAAAAAIELsAwAAAIAIsQ8AAAAAIsQ+AAAAAIgQ+wAAAAAgQuwDAAAAgAixDwAAAAAixD4AAAAAiBD7AAAAACBC7AMAAACACLEPAAAAACLEPgAAAACIEPsAAAAAIELsAwAAAIAIsQ8AAAAAIsQ+AAAAAIgQ+wAAAAAgQuwDAAAAgAixDwAAAAAixD4AAAAAiBD7AAAAACBC7AMAAACACLEPAAAAACLEPgAAAACIEPsAAAAAIELsAwAAAIAIsQ8AAAAAIsQ+AAAAAIgQ+wAAAAAgQuwDAAAAgAixDwAAAAAixD4AAAAAiBD7AAAAACBC7AMAAACACLEPAAAAACLEPgAAAACIEPsAAAAAIELsAwAAAIAIsQ8AAAAAIsQ+AAAAAIgQ+wAAAAAgQuwDAAAAgAixDwAAAAAixD4AAAAAiBD7AAAAACBC7AMAAACACLEPAAAAACLEPgAAAACIEPsAAAAAIELsAwAAAIAIsQ8AAAAAIsQ+AAAAAIgQ+wAAAAAgQuwDAAAAgAixDwAAAAAixD4AAAAAiBD7AAAAACBC7AMAAACACLEPAAAAACLEPgAAAACIEPsAAAAAIELsAwAAAIAIsQ8AAAAAIsQ+AAAAAIgQ+wAAAAAgQuwDAAAAgAixDwAAAAAixD4AAAAAiBD7AAAAACBC7AMAAACACLEPAAAAACLEPgAAAACIEPsAAAAAIELsAwAAAIAIsQ8AAAAAIsQ+AAAAAIgQ+wAAAAAgQuwDAAAAgAixDwAAAAAixD4AAAAAiBD7AAAAACBC7AMAAACACLEPAAAAACLEPgAAAACIEPsAAAAAIELsAwAAAIAIsQ8AAAAAIsQ+AAAAAIgQ+wAAAAAgQuwDAAAAgAixDwAAAAAixD4AAAAAiBD7AAAAACBC7AMAAACACLEPAAAAACLEPgAAAACIEPsAAAAAIELsAwAAAIAIsQ8AAAAAIsQ+AAAAAIgQ+wAAAAAgQuwDAAAAgAixDwAAAAAixD4AAAAAiBD7AAAAACBC7AMAAACACLEPAAAAACLEPgAAAACIEPsAAAAAIELsAwAAAIAIsQ8AAAAAIsQ+AAAAAIgQ+wAAAAAgQuwDAAAAgAixDwAAAAAixD4AAAAAiBD7AAAAACBC7AMAAACACLEPAAAAACLEPgAAAACIEPsAAAAAIELsAwAAAIAIsQ8AAAAAIsQ+AAAAAIgQ+wAAAAAgQuwDAAAAgAixDwAAAAAixD4AAAAAiBD7AAAAACBC7AMAAACACLEPAAAAACLEPgAAAACIEPsAAAAAIELsAwAAAIAIsQ8AAAAAIsQ+AAAAAIgQ+wAAAAAgQuwDAAAAgAixDwAAAAAixD4AAAAAiBD7AAAAACBC7AMAAACACLEPAAAAACLEPgAAAACIEPsAAAAAIELsAwAAAIAIsQ8AAAAAIsQ+AAAAAIgQ+wAAAAAgQuwDAAAAgAixDwAAAAAixD4AAAAAiBD7AAAAACBC7AMAAACACLEPAAAAACLEPgAAAACIEPsAAAAAIELsAwAAAIAIsQ8AAAAAIsQ+AAAAAIgQ+wAAAAAgQuwDAAAAgAixDwAAAAAixD4AAAAAiBD7AAAAACBC7AMAAACACLEPAAAAACLEPgAAAACIEPsAAAAAIELsAwAAAIAIsQ8AAAAAIsQ+AAAAAIgQ+wAAAAAgQuwDAAAAgAixDwAAAAAixD4AAAAAiBD7AAAAACBC7AMAAACACLEPAAAAACLEPgAAAACIEPsAAAAAIELsAwAAAIAIsQ8AAAAAIsQ+AAAAAIgQ+wAAAAAgQuwDAAAAgAixDwAAAAAixD4AAAAAiBD7AAAAACBC7AMAAACACLEPAAAAACLEPgAAAACIEPsAAAAAIELsAwAAAIAIsQ8AAAAAIsQ+AAAAAIgQ+wAAAAAg4rx/82EFAAAAAGzPZR8AAAAARFx7mgm+fR5RfAAAAABJRU5ErkJggg==);
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:322.56px;
+	left:0px;
+	position:absolute;
+	top:0px;
+	transform:translate(0.000px,-5.765px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform:translate(0.000px,-5.765px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin:0% 0%;
+	transform-origin:0% 0%;
+	width:612.00px;
+}
+#_idContainer001 {
+	-ms-transform:translate(312.849px,14.040px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-ms-transform-origin:0% 0%;
+	-webkit-transform:translate(312.849px,14.040px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin:0% 0%;
+	height:294.39px;
+	left:0px;
+	position:absolute;
+	top:0px;
+	transform:translate(312.849px,14.040px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform:translate(312.849px,14.040px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin:0% 0%;
+	transform-origin:0% 0%;
+	width:291.96px;
+}
+#_idContainer002 {
+	-ms-transform:translate(17.386px,14.851px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-ms-transform-origin:0% 0%;
+	-webkit-transform:translate(17.386px,14.851px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin:0% 0%;
+	background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAkcAAAJUCAYAAAAfAYLCAAAACXBIWXMAABcRAAAXEQHKJvM/AAAJ6ElEQVR4Xu3YMQoCQRBFQduT7dE82t5sDEweqyKymVbBZB86fcystS4AADxcPw0AAP6JOAIACHEEABDiCAAgxBEAQIgjAIAQRwAAIY4AAEIcAQCEOAIACHEEABDiCAAgxBEAQIgjAIAQRwAAIY4AAEIcAQCEOAIACHEEABDiCAAgxBEAQIgjAIAQRwAAIY4AAEIcAQCEOAIACHEEABDiCAAgxBEAQIgjAIAQRwAAIY4AAEIcAQCEOAIACHEEABDiCAAgxBEAQIgjAIAQRwAAIY4AAEIcAQCEOAIACHEEABDiCAAgxBEAQIgjAIAQRwAAIY4AAEIcAQCEOAIACHEEABDiCAAgxBEAQIgjAIAQRwAAIY4AAEIcAQCEOAIACHEEABDiCAAgxBEAQIgjAIAQRwAAIY4AAEIcAQCEOAIACHEEABDiCAAgxBEAQIgjAIAQRwAAIY4AAEIcAQCEOAIACHEEABDiCAAgxBEAQIgjAIAQRwAAIY4AAEIcAQCEOAIACHEEABDiCAAgxBEAQIgjAIAQRwAAIY4AAEIcAQCEOAIACHEEABDiCAAgxBEAQIgjAIAQRwAAIY4AAEIcAQCEOAIACHEEABDiCAAgxBEAQIgjAIAQRwAAIY4AAEIcAQCEOAIACHEEABDiCAAgxBEAQIgjAIAQRwAAIY4AAEIcAQCEOAIACHEEABDiCAAgxBEAQIgjAIAQRwAAIY4AAEIcAQCEOAIACHEEABDiCAAgxBEAQIgjAIAQRwAAIY4AAEIcAQCEOAIACHEEABDiCAAgxBEAQIgjAIAQRwAAIY4AAEIcAQCEOAIACHEEABDiCAAgxBEAQIgjAIAQRwAAIY4AAEIcAQCEOAIACHEEABDiCAAgxBEAQIgjAIAQRwAAIY4AAEIcAQCEOAIACHEEABDiCAAgxBEAQIgjAIAQRwAAIY4AAEIcAQCEOAIACHEEABDiCAAgxBEAQIgjAIAQRwAAIY4AAEIcAQCEOAIACHEEABDiCAAgxBEAQIgjAIAQRwAAIY4AAEIcAQCEOAIACHEEABDiCAAgxBEAQIgjAIAQRwAAIY4AAEIcAQCEOAIACHEEABDiCAAgxBEAQIgjAIAQRwAAIY4AAEIcAQCEOAIACHEEABDiCAAgxBEAQIgjAIAQRwAAIY4AAEIcAQCEOAIACHEEABDiCAAgxBEAQIgjAIAQRwAAIY4AAEIcAQCEOAIACHEEABDiCAAgxBEAQIgjAIAQRwAAIY4AAEIcAQCEOAIACHEEABDiCAAgxBEAQIgjAIAQRwAAIY4AAEIcAQCEOAIACHEEABDiCAAgxBEAQIgjAIAQRwAAIY4AAEIcAQCEOAIACHEEABDiCAAgxBEAQIgjAIAQRwAAIY4AAEIcAQCEOAIACHEEABDiCAAgxBEAQIgjAIAQRwAAIY4AAEIcAQCEOAIACHEEABDiCAAgxBEAQIgjAIAQRwAAIY4AAEIcAQCEOAIACHEEABDiCAAgxBEAQIgjAIAQRwAAIY4AAEIcAQCEOAIACHEEABDiCAAgxBEAQIgjAIAQRwAAIY4AAEIcAQCEOAIACHEEABDiCAAgxBEAQIgjAIAQRwAAIY4AAEIcAQCEOAIACHEEABDiCAAgxBEAQIgjAIAQRwAAIY4AAEIcAQCEOAIACHEEABDiCAAgxBEAQIgjAIAQRwAAIY4AAEIcAQCEOAIACHEEABDiCAAgxBEAQIgjAIAQRwAAIY4AAEIcAQCEOAIACHEEABDiCAAgxBEAQIgjAIAQRwAAIY4AAEIcAQCEOAIACHEEABDiCAAgxBEAQIgjAIAQRwAAIY4AAEIcAQCEOAIACHEEABDiCAAgxBEAQIgjAIAQRwAAIY4AAEIcAQCEOAIACHEEABDiCAAgxBEAQIgjAIAQRwAAIY4AAEIcAQCEOAIACHEEABDiCAAgxBEAQIgjAIAQRwAAIY4AAEIcAQCEOAIACHEEABDiCAAgxBEAQIgjAIAQRwAAIY4AAEIcAQCEOAIACHEEABDiCAAgxBEAQIgjAIAQRwAAIY4AAEIcAQCEOAIACHEEABDiCAAgxBEAQIgjAIAQRwAAIY4AAEIcAQCEOAIACHEEABDiCAAgxBEAQIgjAIAQRwAAIY4AAEIcAQCEOAIACHEEABDiCAAgxBEAQIgjAIAQRwAAIY4AAEIcAQCEOAIACHEEABDiCAAgxBEAQIgjAIAQRwAAIY4AAEIcAQCEOAIACHEEABDiCAAgxBEAQIgjAIAQRwAAIY4AAEIcAQCEOAIACHEEABDiCAAgxBEAQIgjAIAQRwAAIY4AAEIcAQCEOAIACHEEABDiCAAgxBEAQIgjAIAQRwAAIY4AAEIcAQCEOAIACHEEABDiCAAgxBEAQIgjAIAQRwAAIY4AAEIcAQCEOAIACHEEABDiCAAgxBEAQIgjAIAQRwAAIY4AAEIcAQCEOAIACHEEABDiCAAgxBEAQIgjAIAQRwAAIY4AAEIcAQCEOAIACHEEABDiCAAgxBEAQIgjAIAQRwAAIY4AAEIcAQCEOAIACHEEABDiCAAgxBEAQIgjAIAQRwAAIY4AAEIcAQCEOAIACHEEABDiCAAgxBEAQIgjAIAQRwAAIY4AAEIcAQCEOAIACHEEABDiCAAgxBEAQIgjAIAQRwAAIY4AAEIcAQCEOAIACHEEABDiCAAgxBEAQIgjAIAQRwAAIY4AAEIcAQCEOAIACHEEABDiCAAgxBEAQIgjAIAQRwAAIY4AAEIcAQCEOAIACHEEABDiCAAgxBEAQIgjAIAQRwAAIY4AAEIcAQCEOAIACHEEABDiCAAgxBEAQIgjAIAQRwAAIY4AAEIcAQCEOAIACHEEABDiCAAgxBEAQIgjAIAQRwAAIY4AAEIcAQCEOAIACHEEABDiCAAgxBEAQIgjAIAQRwAAIY4AAEIcAQCEOAKAL83MPjPrxdsPu+3Nbs3Mdti+290Ou9O3Lwc/dvt29rY4AgCIWesppAAA/pafIwCAEEcAACGOAABCHAEAhDgCAAhxBAAQ4ggAIMQRAECIIwCAEEcAACGOAABCHAEAhDgCAAhxBAAQ4ggAIMQRAECIIwCAEEcAACGOAABCHAEAhDgCAAhxBAAQ4ggAIMQRAECIIwCAEEcAACGOAABCHAEAhDgCAAhxBAAQ4ggAIMQRAECIIwCAEEcAACGOAABCHAEAhDgCAAhxBAAQ4ggAIMQRAECIIwCAEEcAACGOAABCHAEAhDgCAAhxBAAQ4ggAIMQRAECIIwCAEEcAACGOAABCHAEAhDgCAAhxBAAQ4ggAIMQRAECIIwCAEEcAACGOAABCHAEAhDgCAAhxBAAQ4ggAIMQRAECIIwCAEEcAACGOAABCHAEAhDgCAAhxBAAQ4ggAIO72VlhZXn12ZwAAAABJRU5ErkJggg==);
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:286.27px;
+	left:0px;
+	position:absolute;
+	top:0px;
+	transform:translate(17.386px,14.851px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform:translate(17.386px,14.851px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin:0% 0%;
+	transform-origin:0% 0%;
+	width:279.97px;
+}
+#_idContainer003 {
+	-ms-transform:translate(1262.129px,1975.600px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-ms-transform-origin:0% 0%;
+	-webkit-transform:translate(1262.129px,1975.600px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin:0% 0%;
+	height:316.80px;
+	left:0px;
+	position:absolute;
+	top:0px;
+	transform:translate(1262.129px,1975.600px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform:translate(1262.129px,1975.600px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin:0% 0%;
+	transform-origin:0% 0%;
+	width:612.00px;
+}
+#_idContainer004 {
+	-ms-transform:translate(0.000px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-ms-transform-origin:0% 0%;
+	-webkit-transform:translate(0.000px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin:0% 0%;
+	height:1643.00px;
+	left:0px;
+	position:absolute;
+	top:0px;
+	transform:translate(0.000px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform:translate(0.000px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin:0% 0%;
+	transform-origin:0% 0%;
+	width:1866.00px;
+}
+#_idContainer005 {
+	-ms-transform:translate(26359.255px,22604.402px) rotate(0.000deg) skew(0.000deg) scale(20.000,20.000);
+	-ms-transform-origin:0% 0%;
+	-webkit-transform:translate(26359.255px,22604.402px) rotate(0.000deg) skew(0.000deg) scale(20.000,20.000);
+	-webkit-transform-origin:0% 0%;
+	height:81.52px;
+	left:0px;
+	position:absolute;
+	top:0px;
+	transform:translate(26359.255px,22604.402px) rotate(0.000deg) skew(0.000deg) scale(20.000,20.000);
+	transform:translate(26359.255px,22604.402px) rotate(0.000deg) skew(0.000deg) scale(20.000,20.000);
+	transform-origin:0% 0%;
+	transform-origin:0% 0%;
+	width:483.32px;
+}
+#_idContainer006 {
+	-ms-transform:translate(70.947px,43.714px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-ms-transform-origin:0% 0%;
+	-webkit-transform:translate(70.947px,43.714px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin:0% 0%;
+	background-image:url(../image/4.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:1266.29px;
+	left:0px;
+	position:absolute;
+	top:0px;
+	transform:translate(70.947px,43.714px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform:translate(70.947px,43.714px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin:0% 0%;
+	transform-origin:0% 0%;
+	width:1801.29px;
+}
+#_idContainer007 {
+	-ms-transform:translate(2.870px,631.600px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-ms-transform-origin:0% 0%;
+	-webkit-transform:translate(2.870px,631.600px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin:0% 0%;
+	height:1643.00px;
+	left:0px;
+	position:absolute;
+	top:0px;
+	transform:translate(2.870px,631.600px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform:translate(2.870px,631.600px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin:0% 0%;
+	transform-origin:0% 0%;
+	width:1866.00px;
+}
+#_idContainer008 {
+	-ms-transform:translate(0.000px,-11.499px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-ms-transform-origin:0% 0%;
+	-webkit-transform:translate(0.000px,-11.499px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin:0% 0%;
+	height:168.69px;
+	left:0px;
+	position:absolute;
+	top:0px;
+	transform:translate(0.000px,-11.499px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform:translate(0.000px,-11.499px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin:0% 0%;
+	transform-origin:0% 0%;
+	width:753.33px;
+}
+#_idContainer009 {
+	-ms-transform:translate(521.561px,72.863px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-ms-transform-origin:0% 0%;
+	-webkit-transform:translate(521.561px,72.863px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin:0% 0%;
+	background-image:url(../image/6.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:401.20px;
+	left:0px;
+	position:absolute;
+	top:0px;
+	transform:translate(521.561px,72.863px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform:translate(521.561px,72.863px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin:0% 0%;
+	transform-origin:0% 0%;
+	width:1028.24px;
+}
+#_idContainer010 {
+	-ms-transform:translate(230.438px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-ms-transform-origin:0% 0%;
+	-webkit-transform:translate(230.438px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin:0% 0%;
+	height:473.06px;
+	left:0px;
+	position:absolute;
+	top:0px;
+	transform:translate(230.438px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform:translate(230.438px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin:0% 0%;
+	transform-origin:0% 0%;
+	width:1549.80px;
+}
+#_idContainer011 {
+	-ms-transform:translate(0.000px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-ms-transform-origin:0% 0%;
+	-webkit-transform:translate(0.000px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin:0% 0%;
+	height:228.57px;
+	left:0px;
+	position:absolute;
+	top:0px;
+	transform:translate(0.000px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform:translate(0.000px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin:0% 0%;
+	transform-origin:0% 0%;
+	width:216.09px;
+}
+#_idContainer012 {
+	-ms-transform:translate(403.200px,160.799px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-ms-transform-origin:0% 0%;
+	-webkit-transform:translate(403.200px,160.799px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin:0% 0%;
+	height:311.05px;
+	left:0px;
+	position:absolute;
+	top:0px;
+	transform:translate(403.200px,160.799px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform:translate(403.200px,160.799px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin:0% 0%;
+	transform-origin:0% 0%;
+	width:305.46px;
+}
+#_idContainer013 {
+	-ms-transform:translate(136.894px,107.600px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-ms-transform-origin:0% 0%;
+	-webkit-transform:translate(136.894px,107.600px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	-webkit-transform-origin:0% 0%;
+	height:473.06px;
+	left:0px;
+	position:absolute;
+	top:0px;
+	transform:translate(136.894px,107.600px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform:translate(136.894px,107.600px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
+	transform-origin:0% 0%;
+	transform-origin:0% 0%;
+	width:1780.24px;
+}
+img._idGenObjectAttribute-1 {
+	height:100.00%;
+	min-width:100%;
+	width:100.00%;
+}
+img._idGenObjectAttribute-2 {
+	left:0px;
+	position:absolute;
+	top:0px;
+}
+div._idGenObjectStyle-Disabled {
+	background-color:transparent;
+	border-width:0px;
+}
