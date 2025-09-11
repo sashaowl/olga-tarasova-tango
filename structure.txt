@@ -1,0 +1,12 @@
+# Структура файлов и папок
+
+- /src
+  - /components
+  - /pages
+  - /styles
+- /public
+  - index.html
+- /tests
+- README.md
+- package.json
+- .gitignore
