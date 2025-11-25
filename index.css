@@ -221,4 +221,20 @@
   .u-section-4 .u-text-1 {
     margin-bottom: 0;
   }
+
+  /* --- Стили для моей картинки с капитаном --- */
+
+.center-container {
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;   /* Отступ сверху от цифры */
+    padding-bottom: 40px; /* Отступ снизу */
+}
+
+.main-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 800px; /* Ширина картинки */
+    width: 90%;       /* Чтобы на мобильных не вылезала за края */
+    height: auto;
 }
