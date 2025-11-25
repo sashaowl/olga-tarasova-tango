@@ -26550,3 +26550,17 @@ a.u-button-style.u-border-20 {
 .u-bottom-left-radius-50 {
   --border-bottom-left-radius: 50px;
 }
+.center-container {
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;   /* Отступ сверху от цифры */
+    padding-bottom: 40px; /* Отступ снизу */
+}
+
+.main-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 800px; /* Ширина картинки */
+    width: 90%;       /* Чтобы на мобильных не вылезала за края */
+    height: auto;
+}
