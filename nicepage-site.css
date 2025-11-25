@@ -20962,6 +20962,7 @@ a.u-link.u-text-hover-color-var:hover {
         color: #b3b3b3;
         }
         /** alt-color-rules **/
+
     
 
 
@@ -20988,6 +20989,22 @@ a.u-link.u-text-hover-color-var:hover {
 .u-header .u-nav-3 {
   font-size: 1.25rem;
 }
+.center-container {
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;   
+    padding-bottom: 40px; 
+}
+
+.main-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 800px; 
+    width: 90%;       
+    height: auto;
+}
+
+
 
 
 
